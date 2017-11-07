@@ -87,9 +87,9 @@ class Uploader {
                 if (result) {
                     String pubUrl
                     if(bucket) {
-                        ec.getTool("AliossTool",null).getPubUrl(savePath,null)
+                        pubUrl = ec.getTool("AliossTool",null).getPubUrl(savePath,null)
                     }else{
-                        ec.getTool("AliossTool",null).getPresignedUrl(savePath.replaceFirst("/",""),"none",null)
+                        pubUrl = ec.getTool("AliossTool",null).getPresignedUrl(savePath.replaceFirst("/",""),"none",null)
                     }
                     storageState.putInfo("url", pubUrl)
                     storageState.putInfo("type", suffix)
