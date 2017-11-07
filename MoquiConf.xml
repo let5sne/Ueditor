@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- No copyright or license for configuration file, details here are not considered a creative work. -->
+<moqui-conf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/moqui-conf-2.1.xsd">
+
+    <default-property name="alioss.bucket.pub" value=""/>
+    <default-property name="alioss.bucket.pub.url" value=""/>
+
+    <tools>
+        <tool-factory class="org.let5sne.ueditor.UeditorToolFactory" init-priority="18" disabled="false"/>
+    </tools>
+
+    <webapp-list>
+        <webapp name="webroot">
+            <servlet name="ueditorServlet" class="org.let5sne.ueditor.UeditorServlet">
+                <url-pattern>/bue/*</url-pattern>
+            </servlet>
+        </webapp>
+    </webapp-list>
+
+</moqui-conf>
