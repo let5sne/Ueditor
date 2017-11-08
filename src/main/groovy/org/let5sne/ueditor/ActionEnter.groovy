@@ -5,7 +5,6 @@ import com.baidu.ueditor.define.AppInfo
 import com.baidu.ueditor.define.BaseState
 import com.baidu.ueditor.define.State
 import com.baidu.ueditor.hunter.FileManager
-import com.baidu.ueditor.hunter.ImageHunter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
