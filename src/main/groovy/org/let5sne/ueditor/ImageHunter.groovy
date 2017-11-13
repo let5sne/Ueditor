@@ -2,7 +2,6 @@ package org.let5sne.ueditor
 
 import com.baidu.ueditor.PathFormat
 import com.baidu.ueditor.define.*
-import com.baidu.ueditor.upload.StorageManager
 import org.moqui.Moqui
 import org.moqui.context.ExecutionContext
 import org.slf4j.Logger
