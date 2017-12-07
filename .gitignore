@@ -44,4 +44,4 @@ Desktop.ini
 
 # Linux auto files
 *~
-lib/
+lib/*.jar
